@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+  color: #333;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #333;
+  background: #fff;
+  box-shadow: 5px 5px 0 #000;
+  font-size: 16px;
+}
+
+.form-group .error {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 0;
+  display: none;
+}
+
+.form-group .checkbox,
+.form-group .radio {
+  display: flex;
+  align-items: center;
+}
+
+.form-group .checkbox input,
+.form-group .radio input {
+  width: auto;
+  margin-right: 10px;
+}
+
+button {
+  background: #333;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 5px 5px 0 #000;
+}
+
+button:hover {
+  background: #555;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  box-shadow: 5px 5px 0 #000;
+}
+
+table th,
+table td {
+  border: 2px solid #333;
+  padding: 10px;
+  text-align: center;
+}
+
+table th {
+  background: #333;
+  color: #fff;
+}
